@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class VideoViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "Soy un puto video !!"
+        value = "Soy un video !!"
     }
     val text: LiveData<String> = _text
 }
